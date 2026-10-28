@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Database (local only — cloud uses in-memory session)
+autoheal.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit local secrets (never commit real secrets)
+.streamlit/secrets.toml
